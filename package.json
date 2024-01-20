@@ -1,0 +1,16 @@
+{
+  "name": "codeceptjs-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "codecept.conf.js",
+  "scripts": {
+    "appium": "adb kill-server && adb start-server && appium --base-path /wd/hub ",
+    "test": "npx codeceptjs run --steps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs": "^3.5.11"
+  }
+}
