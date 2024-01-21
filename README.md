@@ -2,6 +2,17 @@
 
 Repositório dedicado aos testes utilizando o framework de automação Codecept js para testes mobile com Appium utilizando o padrão page objects
 
+## Instalar nvm:
+Necessário para poder mudar a versão do Node para a usada no projeto
+> https://github.com/nvm-sh/nvm/blob/master/README.md
+
+## Instalar Node.js:
+Ao instalar, provavelmente vários pacotes adicionais serão instalados, como chocolatery, etc.
+> https://nodejs.org/en/download
+
+## Modificar versão padrão do node para a usada no projeto:
+> nvm use
+
 ## Para instalar o Appium
 > npm i -g appium
 
